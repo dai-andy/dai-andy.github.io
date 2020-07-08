@@ -1,2 +1,2 @@
-# dai21a
-website
+Website.
+Used Bootstrap CSS, HTML, JS libraries and Jquery.

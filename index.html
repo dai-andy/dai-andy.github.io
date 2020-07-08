@@ -16,6 +16,7 @@
   <script src="js/jquery.combinedScroll.js"></script>
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/video.css">  
 <style>
     #section1 {}
     #section2 {}
@@ -46,9 +47,26 @@
         
     </div>
 </nav>
-<hr>
 
 <br>
+  
+    <!--Waterfall video container-->
+<header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="media/backgroundVideo.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <br><br><br><br><br><br><br><br><br>
+                <h1 class="display-3" style="color: white; font-size: 125px;">Hi. </h1>
+            </div>
+        </div>
+    </div>
+</header>
+    <!--Waterfall video -->  
+  
 <!--Two-column grid-->
 <div class="container-fluid bg-1" id="section1">
 <div class="container bg-1 text-center">
@@ -61,9 +79,9 @@
            <p style="color: black" class="text-left">Hi. I'm a high school student from Chapel Hill, NC dual-enrolled in East Chapel Hill
              High School and the NC School of Science and Math. I am a piano/music- obsessive (ranging from classical to contemporary), and I also really love STEM. 
             I've tackled research projects ranging from malaria to AI, and the interdiscplinary nature of STEM (eg. math 
-            underlying everything) fascinates me. My evolving interests have drawn me towards <strong>computational biology</strong>— where I can solve problems that truly intrigue me while having an applied connection.
+            underlying everything) fascinates me. My evolving interests have drawn me towards <strong>computational biology</strong>— where I can solve problems that intrigue me but also have application.
            </p> 
-            <p style="color: black" class="text-left"> Whether it be music or STEM research, I pursue the things that interest me with <strong>passion</strong>, enabling me to be persistent and thoughtful in all that I try to do.
+            <p style="color: black" class="text-left"> Whether it be music or STEM research, I pursue with <strong>passion</strong> the things that interest me, enabling me to be persistent and thoughtful in all that I try to do.
             </p>
         </div>
     </div>
@@ -77,19 +95,12 @@
     <ul>
         <li style="color: black" class="text-left">
     This summer, I'm conducting research on <strong>cancer immunotherapy</strong>. More information coming soon!
-    
-    <!--More specifically, I'm analyzing phase
-    3 clinical trial data with the goal of comparing the true efficacies
-    of different immunotherapies across adjuvant (stage 3) and metstatic (stage 4) melanomas. The key problem here is in
-    accounting for the baseline effectiveness of first-line and prior treatments (eg. localized surgery) that occur in earlier stage disease
-    settings so that the true benefit of the additional immunotherapy may be isolated/evaluated and then
-    compared.-->
         </li >
         <br>
         <li style="color: black" class="text-left">
     From last summer to winter, I conducted research on the introduction of <strong>malaria-resistant transgenic mosquitoes</strong> as a novel
-    proposal for reducing the global impact of malaria. I built systems of ordinary differential equations (ODEs) that modeled the different mosquito populations (eg. hybrid, pure) and their population dynamics, and I analyzed them for general results on the stability of a hypothetical
-    environmental system with transgenic mosquito release.
+    proposal for reducing the global impact of malaria. I built systems of ordinary differential equations (ODEs) that modeled the different mosquito populations (eg. hybrid, pure transgenic...) and their population dynamics, and I analyzed them for general results on the stability of a hypothetical
+    environmental system with released transgenic mosquitos.
         </li>
     </ul>
 
